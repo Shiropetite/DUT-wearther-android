@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vetements_test</string>
+    <string name="item_defaul_name">nom du vetement</string>
+</resources>
