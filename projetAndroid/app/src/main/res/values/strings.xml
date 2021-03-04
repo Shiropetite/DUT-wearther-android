@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Wearther</string>
+    <string name="bien_message">Bien</string>
+    <string name="chaud_message">Chaud</string>
+    <string name="froid_message">Froid</string>
+    <string name="fermer_message">Fermer</string>
+    <string name="sous_titre_message">Sous-titre</string>
+    <string name="titre_defaut_message">Titre par défaut</string>
 </resources>

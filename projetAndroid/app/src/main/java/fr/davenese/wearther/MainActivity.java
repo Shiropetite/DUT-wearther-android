@@ -1,12 +1,17 @@
 package fr.davenese.wearther;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Time;
 import java.text.DateFormat;
@@ -20,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView mHourText,mdateText,mDegreesText,mWindSpeedText,
             mHumidityText,mWearText;
     private ImageView weatherImage,coldimage, goodImage,hotImage;
+    private MainActivity activity;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_main);
+
+        this.activity = this;
+
         //Initialisation des composants graphiques
         this.mHourText = (TextView) findViewById(R.id.hour_textView);
         this.mdateText = (TextView) findViewById(R.id.date_textView);
@@ -58,5 +68,30 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewDateTime = findViewById(R.id.hour_textView);
         textViewDateTime.setText(currentDateTime);
 
+        // Ouverture de l'activité ressenti froid au clic
+        this.coldimage = findViewById(R.id.cold_ImageView);
+        coldimage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Démarrer des actions ou déclencher des actions
+                Intent FeelActivity = new Intent(getApplicationContext(), FeelingActivity.class);
+                startActivity(FeelActivity);
+                finish();
+            }
+        });
+
+
+        // Ouverture de l'activité ressenti bien au clic
+        this.goodImage = findViewById(R.id.good_ImageView);
+        goodImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                FeelgoodDialog feelgoodDialog = new FeelgoodDialog(activity);
+                feelgoodDialog.setTitle("Génial");
+                feelgoodDialog.setSubtitle("Vous avez été satisfait de votre tenue !");
+                feelgoodDialog.build();
+            }
+        });
     }
 }
