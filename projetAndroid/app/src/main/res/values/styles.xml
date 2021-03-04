@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MainTextView</item>
+    </style>
+
+    <style name="MainTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black_font</item>
+        <item name="android:layout_width">match_parent</item>
+       
+
+        <item name="android:textSize">10pt</item>
+    </style>
+</resources>
