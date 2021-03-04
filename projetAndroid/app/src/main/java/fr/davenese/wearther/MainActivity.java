@@ -8,6 +8,13 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.sql.Time;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
+import java.util.TimeZone;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView mHourText,mdateText,mDegreesText,mWindSpeedText,
@@ -17,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
-        getSupportActionBar().hide(); // hide the title bar
+        requestWindowFeature(Window.FEATURE_NO_TITLE); // Cacher le titre
+        getSupportActionBar().hide(); // Cacher la barre de titre
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_main);
@@ -36,8 +43,20 @@ public class MainActivity extends AppCompatActivity {
         this.goodImage = (ImageView) findViewById(R.id.weather_imageView);
         this.hotImage = (ImageView) findViewById(R.id.hot_ImageView);
 
+        //Initialisation de la date en France
+        Calendar calendar = Calendar.getInstance();
+        // Changement de format d'affichage de la date
+        String currentDate = DateFormat.getDateInstance(DateFormat.FULL, Locale.FRANCE).format(calendar.getTime());
+        TextView textViewDate = findViewById(R.id.date_textView);
+        textViewDate.setText(currentDate);
 
-
+        //Initialisation de l'heure en France
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm", Locale.FRANCE);
+        TimeZone timeZone = TimeZone.getTimeZone("Europe/Paris");
+        simpleDateFormat.setTimeZone(timeZone);
+        String currentDateTime = simpleDateFormat.format(calendar.getTime());
+        TextView textViewDateTime = findViewById(R.id.hour_textView);
+        textViewDateTime.setText(currentDateTime);
 
     }
 }
