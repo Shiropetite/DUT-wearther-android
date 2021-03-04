@@ -10,7 +10,8 @@
         android:id="@+id/input_temperature"
         android:layout_width="133dp"
         android:layout_height="46dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="Temperature"
         android:inputType="number"
@@ -21,9 +22,19 @@
         android:id="@+id/button_validation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:text="Validation"
+        app:layout_constraintStart_toEndOf="@+id/input_temperature"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_choose"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="8dp"
+        android:text="a"
         app:layout_constraintStart_toEndOf="@+id/input_temperature"
         app:layout_constraintTop_toTopOf="parent" />
 
