@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.clothes.ressources.Cloth;
-import com.example.vetements_test.R;
+import com.example.clothes.R;
 
 import java.util.List;
 

@@ -19,7 +19,7 @@ import com.example.clothes.adapters.ClothAdapter;
 import com.example.clothes.ressources.BodyPart;
 import com.example.clothes.ressources.Cloth;
 import com.example.clothes.ressources.User;
-import com.example.vetements_test.R;
+import com.example.clothes.R;
 
 import java.util.ArrayList;
 import java.util.List;
