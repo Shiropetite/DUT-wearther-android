@@ -12,4 +12,8 @@
     <color name="grey_blue">#B3C5FF</color>
     <color name="white_font">#F2F2F2</color>
     <color name="black_font">#000000</color>
+    <color name="blue_back">#4580a9</color>
+    <color name="poulpi_blue">#294C65</color>
+
+
 </resources>
