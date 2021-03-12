@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/div1"
+        android:layout_width="0dp"
+        android:layout_height="86dp"
+
+        android:background="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_horizontal"
+            android:text="Date"
+
+            android:textAlignment="center"
+
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/div1" />
+
+        <TextView
+            android:id="@+id/tv_heure"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_horizontal"
+
+            android:text="Heure"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+
+
+        <!-- Images des températures -->
+    <ImageView
+        android:id="@+id/cold_ImageView"
+        android:layout_width="124dp"
+        android:layout_height="54dp"
+        app:layout_constraintEnd_toStartOf="@+id/good_ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/good_ImageView"
+        app:srcCompat="@drawable/froid" />
+
+    <ImageView
+        android:id="@+id/good_ImageView"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/hot_ImageView"
+        app:layout_constraintStart_toEndOf="@+id/cold_ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/div1"
+        app:srcCompat="@drawable/bien" />
+
+    <ImageView
+        android:id="@+id/hot_ImageView"
+        android:layout_width="112dp"
+        android:layout_height="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/good_ImageView"
+        app:layout_constraintTop_toTopOf="@+id/good_ImageView"
+        app:srcCompat="@drawable/chaud" />
+
+        <!-- Texte sous les images des températures -->
+
+    <TextView
+        android:id="@+id/hot_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#275571"
+        android:gravity="center"
+        android:text="Froid"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/cold_ImageView"
+        app:layout_constraintStart_toStartOf="@+id/cold_ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/cold_ImageView" />
+
+    <TextView
+        android:id="@+id/good_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#275571"
+        android:gravity="center"
+        android:text="Bien"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/good_ImageView"
+        app:layout_constraintStart_toStartOf="@+id/good_ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/good_ImageView" />
+
+    <TextView
+        android:id="@+id/cold_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#275571"
+        android:gravity="center"
+        android:text="Chaud"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/hot_ImageView"
+        app:layout_constraintStart_toStartOf="@+id/hot_ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/hot_ImageView" />
+
+    <!-- CheckBox -->
+
+    <CheckBox
+        android:id="@+id/tete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Tête"
+        android:textSize="20sp"
+        android:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hot_TextView"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Cou"
+        android:textSize="20sp"
+        app:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tete"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/haut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Haut"
+        android:textSize="20sp"
+        app:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cou"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/mains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Mains"
+        android:textSize="20sp"
+        app:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haut"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/bas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Bas"
+        android:textSize="20sp"
+        app:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mains"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/pieds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Pieds"
+        android:textSize="20sp"
+        app:buttonTint="@color/dark_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bas"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
