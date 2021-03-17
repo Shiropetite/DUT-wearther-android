@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/div1"
+        android:layout_width="360dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/en_tete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Date"
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/div1" />
+
+    <TextView
+        android:id="@+id/tv_heure"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="Heure"
+
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+
+    <TextView
+        android:id="@+id/div2"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+
+        android:layout_marginStart="16dp"
+
+        android:background="@color/div"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div" />
+
+    <TextView
+        android:id="@+id/div6"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+
+        android:layout_marginStart="16dp"
+
+        android:background="@color/div"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div5" />
+
+    <TextView
+        android:id="@+id/div7"
+        android:layout_width="368dp"
+        android:layout_height="113dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/div"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div6" />
+
+    <TextView
+        android:id="@+id/div3"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="@color/div"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div4" />
+
+    <TextView
+        android:id="@+id/div"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+
+        android:layout_marginStart="16dp"
+        android:paddingTop="2dp"
+
+        android:layout_marginTop="24dp"
+        android:background="@color/en_tete"
+        android:text="Temps"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div1" />
+
+    <TextView
+        android:id="@+id/div5"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="24dp"
+        android:background="@color/en_tete"
+        android:paddingTop="2dp"
+        android:text="Vent"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div2" />
+
+    <TextView
+        android:id="@+id/div4"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+
+        android:paddingTop="2dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/en_tete"
+        android:text="Humidité"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div1" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="170dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:text="Temperature"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/div2"
+        app:layout_constraintStart_toStartOf="@+id/div2"
+        app:layout_constraintTop_toBottomOf="@+id/weather_icone" />
+
+    <TextView
+        android:id="@+id/tv_wind_speed"
+        android:layout_width="170dp"
+        android:layout_height="32dp"
+        android:text="Vitesse"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/div6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/div6"
+        app:layout_constraintTop_toBottomOf="@+id/weather_icone3" />
+
+    <TextView
+        android:id="@+id/tv_information"
+        android:layout_width="231dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="16dp"
+        android:text="Informations"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/div7"
+        app:layout_constraintEnd_toEndOf="@+id/div7"
+        app:layout_constraintTop_toTopOf="@+id/div7" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:text="Humidité"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/div3"
+        app:layout_constraintStart_toStartOf="@+id/div3"
+        app:layout_constraintTop_toBottomOf="@+id/weather_icone2" />
+
+    <ImageView
+        android:id="@+id/weather_icone"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/div2"
+        app:layout_constraintStart_toStartOf="@+id/div2"
+        app:layout_constraintTop_toTopOf="@+id/div2"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="106dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/div7"
+        app:layout_constraintStart_toStartOf="@+id/div7"
+        app:layout_constraintTop_toTopOf="@+id/div7"
+        app:layout_constraintVertical_bias="0.533"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/weather_icone3"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/div2"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/div2"
+        app:layout_constraintTop_toTopOf="@+id/div6"
+        app:srcCompat="@drawable/wind"
+        tools:src="@tools:sample/avatars"
+        tools:srcCompat="@drawable/wind" />
+
+    <ImageView
+        android:id="@+id/weather_icone2"
+        android:layout_width="133dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/div3"
+        app:layout_constraintStart_toStartOf="@+id/div3"
+        app:layout_constraintTop_toTopOf="@+id/div3"
+        app:srcCompat="@drawable/humidity"
+        tools:src="@drawable/humidity"
+        tools:srcCompat="@drawable/humidity" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
