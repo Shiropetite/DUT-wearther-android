@@ -6,11 +6,14 @@ import android.database.Cursor;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.net.IDN;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_ID = "ID";
@@ -113,4 +116,68 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         cursor.close();
         return user_db;
     }
+
+    public void tooCold(float temperature, Cloth cloth, User user) {
+        List<Cloth> clothBodyPart = new ArrayList<>();
+        for(Cloth c : user.getClothes()) {
+            if(c.getBodyPart().equals(cloth.getBodyPart())) {
+                clothBodyPart.add(c);
+            }
+        }
+
+        for(Cloth c : clothBodyPart) {
+            if(temperature - 5 <= c.getMaxTemperature() && temperature > c.getMaxTemperature()) {
+                cloth.setMaxTemperature(cloth.getMaxTemperature() + 5);
+                updateTemperature(user,cloth.getName(),cloth.getMaxTemperature(),COLUMN_CLOTH_MAXTEMPERATURE);
+
+            }
+            if(cloth.getMinTemperature() < temperature && temperature < cloth.getMaxTemperature()) {
+                cloth.setMinTemperature(cloth.getMaxTemperature() + 5);
+                updateTemperature(user,cloth.getName(),cloth.getMaxTemperature(),COLUMN_CLOTH_MAXTEMPERATURE);
+            }
+        }
+
+    }
+
+    public void tooHot(float temperature, Cloth cloth, User user) {
+        List<Cloth> clothBodyPart = new ArrayList<>();
+        for(Cloth c : user.getClothes()) {
+            if(c.getBodyPart().equals(cloth.getBodyPart())) {
+                clothBodyPart.add(c);
+            }
+
+        }
+
+        for(Cloth c : clothBodyPart) {
+            if(temperature + 5 >= c.getMinTemperature() && temperature < c.getMinTemperature()) {
+                c.setMinTemperature(c.getMinTemperature() - 5);
+                updateTemperature(user,c.getName(),c.getMinTemperature(),COLUMN_CLOTH_MINTEMPERATURE);
+            }else if(c.getMinTemperature() < temperature && temperature < c.getMaxTemperature()) {
+                c.setMinTemperature(c.getMinTemperature() - 5);
+                updateTemperature(user,c.getName(),c.getMinTemperature(),COLUMN_CLOTH_MINTEMPERATURE);
+            }
+        }
+
+    }
+
+    public boolean updateTemperature(User user, String clothName, float newTemperature, String columnName) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        ContentValues args = new ContentValues();
+        args.put(columnName, newTemperature);
+
+        User dbUser = this.getUser(user.getLogin(),user.getPassword());
+        String condition = COLUMN_CLOTH_NAME + " = '" + clothName
+                + "' AND " + COLUMN_CLOTH_ID_USER + " = '" + dbUser.getId() + "'";
+
+        long update = db.update(CLOTH_TABLE,args,condition,null);
+        if(update == -1) {
+            return false;
+        }
+        else {
+            return true;
+        }
+
+    }
+
 }

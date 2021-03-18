@@ -42,6 +42,7 @@ public class DashboardFragment extends Fragment implements LocationListener {
     private LocationManager locationManager;
     private User user;
     private GridView suggestionsList;
+    public static List<Cloth> suggestion;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
@@ -91,6 +92,7 @@ public class DashboardFragment extends Fragment implements LocationListener {
                             list.add(cloth);
                         }
                     }
+                    suggestion = new ArrayList<>(list);
                     suggestionsList.setAdapter(new ClothAdapter(context,list));
 
                 }

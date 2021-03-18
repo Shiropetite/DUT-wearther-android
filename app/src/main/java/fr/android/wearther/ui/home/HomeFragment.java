@@ -25,10 +25,12 @@ import com.squareup.picasso.Picasso;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
 import fr.android.wearther.R;
+import fr.android.wearther.data.Cloth;
 import fr.android.wearther.data.DataBaseHelper;
 import fr.android.wearther.data.User;
 import fr.android.wearther.ressources.WeatherDataService;
@@ -46,6 +48,7 @@ public class HomeFragment extends Fragment implements LocationListener{
     private ImageView icone;
     private Context context;
     private LocationManager locationManager;
+    public static float temperature;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
@@ -105,6 +108,7 @@ public class HomeFragment extends Fragment implements LocationListener{
 
                 @Override
                 public void onResponse(WeatherModel weatherModel) {
+                    temperature = weatherModel.getTemp();
                     tv_temperature.setText(weatherModel.getTemp() + " °C");
                     int wind_speed = (int) (weatherModel.getWind_speed() * 1609.34) / 1000;
                     tv_wind_speed.setText(wind_speed + " km/h");

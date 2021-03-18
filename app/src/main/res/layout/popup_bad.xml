@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginBottom="200dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/btn_close_popup_bad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_popup_bad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="cold"
+        android:textAlignment="textStart"
+        android:textColor="@color/en_tete"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_close_popup_bad" />
+
+    <CheckBox
+        android:id="@+id/ck_tete"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:buttonTint="@color/en_tete"
+        android:textColor="@color/en_tete"
+        android:text="Tête"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/text_popup_bad"
+        app:layout_constraintTop_toBottomOf="@+id/text_popup_bad"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ck_pieds"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textColor="@color/en_tete"
+        android:text="Pieds"
+        android:textSize="20sp"
+        app:buttonTint="@color/en_tete"
+        app:layout_constraintEnd_toEndOf="@+id/text_popup_bad"
+        app:layout_constraintTop_toBottomOf="@+id/ck_bas"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ck_bas"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textColor="@color/en_tete"
+        android:text="Bas"
+        android:textSize="20sp"
+        app:buttonTint="@color/en_tete"
+        app:layout_constraintEnd_toEndOf="@+id/ck_mains"
+        app:layout_constraintTop_toBottomOf="@+id/ck_mains"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ck_mains"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Mains"
+        android:textSize="20sp"
+        app:buttonTint="@color/en_tete"
+        android:textColor="@color/en_tete"
+        app:layout_constraintEnd_toEndOf="@+id/text_popup_bad"
+        app:layout_constraintTop_toBottomOf="@+id/text_popup_bad"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ck_haut"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Haut"
+        android:textSize="20sp"
+        app:buttonTint="@color/en_tete"
+        android:textColor="@color/en_tete"
+        app:layout_constraintStart_toStartOf="@+id/ck_cou"
+        app:layout_constraintTop_toBottomOf="@+id/ck_cou"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ck_cou"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Cou"
+        android:textColor="@color/en_tete"
+        android:textSize="20sp"
+        app:buttonTint="@color/en_tete"
+        app:layout_constraintStart_toStartOf="@+id/ck_tete"
+        app:layout_constraintTop_toBottomOf="@+id/ck_tete"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_soumettre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Valider"
+        app:layout_constraintEnd_toEndOf="@+id/ck_pieds"
+        app:layout_constraintStart_toStartOf="@+id/ck_haut"
+        app:layout_constraintTop_toBottomOf="@+id/ck_haut" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

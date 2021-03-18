@@ -13,4 +13,5 @@
     <string name="signup_message">Bienvenue sur Wearther ! Inscrivez-vous</string>
     <string name="inscription">Inscription</string>
     <string name="ancien_message">Déjà un compte ? Connectez-vous</string>
+
 </resources>

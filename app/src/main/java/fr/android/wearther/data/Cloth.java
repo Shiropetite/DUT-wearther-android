@@ -28,4 +28,12 @@ public class Cloth {
     public float getMaxTemperature() {
         return maxTemperature;
     }
+
+    public void setMinTemperature(float minTemperature) {
+        this.minTemperature = minTemperature;
+    }
+
+    public void setMaxTemperature(float maxTemperature) {
+        this.maxTemperature = maxTemperature;
+    }
 }
