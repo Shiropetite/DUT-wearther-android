@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wearther</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Suggestions</string>
+    <string name="title_notifications">Avis</string>
+
+    <string name="login_message">Bon retour sur Wearther, connectez-vous</string>
+    <string name="pseudonyme_message">Pseudonyme</string>
+    <string name="mdp_message">Mot de passe</string>
+    <string name="connexion_message">Connexion</string>
+    <string name="nouveau_message">Nouveau ? Inscrivez-vous !</string>
+
+    <string name="signup_message">Bienvenue sur Wearther ! Inscrivez-vous</string>
+    <string name="inscription">Inscription</string>
+    <string name="ancien_message">Déjà un compte ? Connectez-vous</string>
+
+</resources>

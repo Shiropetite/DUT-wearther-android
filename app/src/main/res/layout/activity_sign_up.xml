@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:id="@+id/en_tete_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@color/en_tete"
+
+        android:text="@string/signup_message"
+        android:textAlignment="center"
+        android:paddingVertical="70dp"
+        android:textSize="23sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/login_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/pseudonyme_message"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/en_tete_sign_in"
+        />
+
+    <EditText
+        android:id="@+id/input_pseudo_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_sign_in"
+        />
+
+    <TextView
+        android:id="@+id/password_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+        android:text="@string/mdp_message"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_pseudo_sign_in"
+        />
+
+    <EditText
+        android:id="@+id/input_password_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_sign_in"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="195dp"
+        android:layout_height="46dp"
+        android:background="@drawable/login_btn_bg"
+
+        android:text="@string/inscription"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+
+        app:layout_constraintEnd_toEndOf="@+id/input_password_sign_in"
+        app:layout_constraintStart_toStartOf="@+id/input_password_sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/input_password_sign_in"
+        />
+
+    <Button
+        android:id="@+id/btn_go_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+
+        android:text="@string/ancien_message"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

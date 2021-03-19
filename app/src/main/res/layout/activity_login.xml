@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/en_tete_login"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@color/en_tete"
+
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:paddingVertical="70dp"
+        android:text="@string/login_message"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/pseudonyme_message"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/en_tete_login"
+        />
+
+    <EditText
+        android:id="@+id/input_pseudo_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/login_login"
+        app:layout_constraintStart_toStartOf="@+id/login_login"
+        app:layout_constraintTop_toBottomOf="@+id/login_login"
+        />
+
+    <TextView
+        android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+
+        android:text="@string/mdp_message"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="@+id/input_pseudo_login"
+        app:layout_constraintStart_toStartOf="@+id/input_pseudo_login"
+        app:layout_constraintTop_toBottomOf="@+id/input_pseudo_login"
+        />
+
+    <EditText
+        android:id="@+id/input_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="30dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/password_login"
+        app:layout_constraintStart_toStartOf="@+id/password_login"
+        app:layout_constraintTop_toBottomOf="@+id/password_login"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_connexion"
+        android:layout_width="195dp"
+        android:layout_height="46dp"
+        android:background="@drawable/login_btn_bg"
+        android:layout_marginHorizontal="30dp"
+
+        android:text="@string/connexion_message"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/input_password_login"
+        app:layout_constraintStart_toStartOf="@+id/input_password_login"
+        app:layout_constraintTop_toBottomOf="@+id/input_password_login"
+        />
+
+    <Button
+        android:id="@+id/btn_go_to_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+
+        android:text="@string/nouveau_message"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/en_tete"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_connexion"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
