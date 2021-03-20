@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_shirt.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_shirt.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cloth_menu.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\cloth_menu.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_cloth.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\adapter_cloth.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_humidity.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable-v24\\humidity.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_good.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\popup_good.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_froid.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\froid.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_bottes.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_bottes.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_weather_menu.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\weather_menu.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_bad.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\popup_bad.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_btn_bg.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\login_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_pantalon.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_pantalon.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thunderbolt.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\thunderbolt.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_gants.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_gants.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_umbrella.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\umbrella.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_manteau.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_manteau.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sunglasses.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\sunglasses.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_feel.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\feel.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_pull.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_pull.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_echarpe.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_echarpe.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slip.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\slip.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cloud.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\cloud.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chaud.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\chaud.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_debardeur.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_debardeur.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\bien.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_bonnet.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_bonnet.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_short.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_short.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_v_baskets.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable\\v_baskets.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wind.png.flat",
+        "source": "D:\\Mes documents\\AndroidStudio\\android-Sofia\\app\\src\\main\\res\\drawable-v24\\wind.png"
+    }
+]

@@ -1,0 +1,51 @@
+fr/android/wearther/LoginActivity.java
+ fr.android.wearther.LoginActivity
+ fr.android.wearther.LoginActivity$1
+ fr.android.wearther.LoginActivity$2
+fr/android/wearther/ui/dashboard/DashboardFragment.java
+ fr.android.wearther.ui.dashboard.DashboardFragment
+ fr.android.wearther.ui.dashboard.DashboardFragment$1
+fr/android/wearther/data/User.java
+ fr.android.wearther.data.User
+fr/android/wearther/ressources/WeatherModel.java
+ fr.android.wearther.ressources.WeatherModel
+fr/android/wearther/ui/notifications/NotificationsFragment.java
+ fr.android.wearther.ui.notifications.NotificationsFragment
+ fr.android.wearther.ui.notifications.NotificationsFragment$1
+ fr.android.wearther.ui.notifications.NotificationsFragment$1$1
+ fr.android.wearther.ui.notifications.NotificationsFragment$1$2
+ fr.android.wearther.ui.notifications.NotificationsFragment$2
+ fr.android.wearther.ui.notifications.NotificationsFragment$2$1
+ fr.android.wearther.ui.notifications.NotificationsFragment$2$2
+ fr.android.wearther.ui.notifications.NotificationsFragment$3
+ fr.android.wearther.ui.notifications.NotificationsFragment$3$1
+fr/android/wearther/data/DataBaseHelper.java
+ fr.android.wearther.data.DataBaseHelper
+fr/android/wearther/SignInActivity.java
+ fr.android.wearther.SignInActivity
+ fr.android.wearther.SignInActivity$1
+ fr.android.wearther.SignInActivity$2
+fr/android/wearther/BuildConfig.java
+ fr.android.wearther.BuildConfig
+fr/android/wearther/ui/home/HomeFragment.java
+ fr.android.wearther.ui.home.HomeFragment
+ fr.android.wearther.ui.home.HomeFragment$1
+fr/android/wearther/ressources/WeatherDataService.java
+ fr.android.wearther.ressources.WeatherDataService
+ fr.android.wearther.ressources.WeatherDataService$1
+ fr.android.wearther.ressources.WeatherDataService$1$1
+ fr.android.wearther.ressources.WeatherDataService$2
+ fr.android.wearther.ressources.WeatherDataService$3
+ fr.android.wearther.ressources.WeatherDataService$4
+ fr.android.wearther.ressources.WeatherDataService$ForeCastByIDResponse
+ fr.android.wearther.ressources.WeatherDataService$IconeResponse
+fr/android/wearther/ressources/ClothAdapter.java
+ fr.android.wearther.ressources.ClothAdapter
+fr/android/wearther/data/Cloth.java
+ fr.android.wearther.data.Cloth
+fr/android/wearther/data/BodyPart.java
+ fr.android.wearther.data.BodyPart
+fr/android/wearther/MainActivity.java
+ fr.android.wearther.MainActivity
+fr/android/wearther/ressources/Singleton.java
+ fr.android.wearther.ressources.Singleton
